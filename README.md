@@ -1,1 +1,1 @@
-# IgniteLab_Desygn_System_FigmaToReact
+# IgniteLab_Design_System_FigmaToReact
