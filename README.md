@@ -2,4 +2,4 @@
 
 
 - not finished yet
-- tools used :  tailwind
+- tools used :  tailwind  / postcss / autoprefixer
