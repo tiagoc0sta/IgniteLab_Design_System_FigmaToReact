@@ -1,6 +1,7 @@
+import { ReactNode } from 'react';
 import { Slot } from '@radix-ui/react-slot';
 import { clsx } from 'clsx';
-import { ReactNode } from 'react';
+
 
 export interface ButtonProps {
   children: ReactNode;
@@ -13,7 +14,7 @@ export function Button({children, asChild}: ButtonProps) {
   return(
     <Comp 
       className={clsx(
-        'text-gray-100 font-sans', 
+        'py-4 px-3 bg-cyan-500 font-semibold text-black text-sm w-full transition-collors hover:bg-cyan-300 focus:ring-2 ring-white', 
       )}
     >
       {children}
