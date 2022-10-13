@@ -18,7 +18,7 @@ module.exports = {
 
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = 'IgniteLab_Design_System_FigmaToReact'
+      config.base = 'IgniteLab_Design_System_FigmaToReact/lab-ds/'
     }
 
     return config
