@@ -1,4 +1,6 @@
 import { Envelope, Lock } from 'phosphor-react';
+import { Button } from './components/Button';
+import { Checkbox } from './components/CheckBox';
 import { Heading } from './components/Heading';
 import { Text } from './components/Text';
 import { TextInput } from './components/TextInput';
@@ -41,8 +43,23 @@ export function App() {
             <TextInput.Input type="password" id="password" placeholder="**********"/>
           </TextInput.Root>
         </label>
-      </form>
-      
+
+        <label htmlFor="remember" className="flex items-center gap-2">
+          <Checkbox id="remember"/>
+          <Text size="sm" className="text-gray-200">Lembrar de mim por 30 dias</Text>
+        </label>     
+
+        <Button type="submit" className="mt-4">Entrar na Plataforma</Button>
+      </form>   
+
+      <footer className="flex flex-col items-center gap-4 mt-8">
+        <Text asChild size="sm">
+          <a href=""className="text-gray-400 underline hover:text-gray-200">Esqueceu sua senha</a>
+        </Text>
+        <Text asChild size="sm">
+          <a href=""className="text-gray-400 underline hover:text-gray-200">Não possui conta? Crie uma agora! hover:text-gray-200</a>
+        </Text>
+      </footer>   
     </div>
   )
 }
