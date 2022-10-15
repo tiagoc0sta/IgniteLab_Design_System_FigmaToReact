@@ -1,5 +1,5 @@
 
-# Loguin Page  - ReactJS   
+# Login Page  - ReactJS   
 
 ReactJS - Implementing a Loguin Page from Figma to Raact - Design System.
 
