@@ -2,7 +2,7 @@
 
 
 - not finished yet
-- tools used :  tailwind  / postcss / autoprefixer / storyboock / clsx / Radix UI
+- tools used :  tailwind  / postcss / autoprefixer / storybook / clsx / Radix UI / Axios / mock service worker
 
 
 - link do figma:
