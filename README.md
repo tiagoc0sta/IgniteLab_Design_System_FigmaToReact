@@ -1,7 +1,7 @@
 
 # Login Page  - ReactJS   
 
-ReactJS - Implementing a Loguin Page from Figma to Raact - Design System.
+ReactJS - Implementing a Login Page from Figma to Raact - Design Systems.
 
  
 Technologies used:
